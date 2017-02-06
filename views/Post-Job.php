@@ -70,7 +70,7 @@
 					  while($haveLevelData = $queryForLevel->fetch_array())
 					  {
 						?>
-              <option value="<?php echo $haveLevelData['id'];  ?>"><?php echo $haveLevelData['level_name']; ?></option>
+              <option value="<?php echo $haveLevelData['level_name'];  ?>"><?php echo $haveLevelData['level_name']; ?></option>
  
 					<?php
 						  }
@@ -101,8 +101,8 @@
                         <br>
                         <select style="height:3em; overflow:hidden !important; border:1px solid green;" name="payment_method"
                         class="col-md-12" required>
-                            <option name="fixed">Fixed Payment</option>
-                            <option name="hourly">Hourly Payment</option>
+                            <option value="fixed">Fixed Payment</option>
+                            <option value="hourly">Hourly Payment</option>
 
                         </select>
 

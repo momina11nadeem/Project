@@ -32,8 +32,7 @@ session_start();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../
-                    views/INDEX.php"><strong style="font-family: Arial">PAK<span style="color:#090; font-family: Arial">-FREELANCE</span></strong></a>
+                    <a class="navbar-brand" href="../views/INDEX.php"><strong style="font-family: Arial">PAK<span style="color:#090; font-family: Arial">-FREELANCE</span></strong></a>
                 </div>
                 <!-- menu -->
                 <div class="collapse navbar-collapse navbar-right" id="mynavbar" style="font-family: Arial">

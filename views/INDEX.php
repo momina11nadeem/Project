@@ -20,7 +20,7 @@ include("header.php");
  <form class="w3-form" style=" margin-top:2em;">
  <input class="w3-input" style="width:27em;">
  <button class="btn btn-block M-button-Grey-to-white" style=" margin-top:-2.8em; margin-left:37em;
- height:2.8em !important; width: 6em; border-radius:1px;"><a style="font-family: Arial">SEARCH</a></button>
+ height:2.8em !important; width: 6em; border-radius:1px;"><a style="font-family: Arial" class="M-Universal-Link" href="#" name="IndexSearch">SEARCH</a></button>
  </form>
   </div>
       </center>
@@ -171,9 +171,9 @@ include("header.php");
         <br>
        <!-- <p>Html5,Css3,Bootstrap3...</p>-->
          </div><!--  /panel-body-->
-        <div class="panel-footer"><a class="M-Universal-Link" href="#"><button class=" btn btn-block btn-sm"
-                                                                               style="height:3em; background-color:#063; color:white; ">
-                    <h6 style="font-family: Arial">View Jobs</h6></button></a></div>
+        <div class="panel-footer"><a class="M-Universal-Link" href="#">
+                <button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; font-family: Arial; ">
+                    View Detailed Job</button></a></div>
         </div><!-- /panel-->
         </div><!-- /well-->
         </div><!-- /col -->
@@ -189,7 +189,11 @@ include("header.php");
         <br>
         <!--<p>Html5,Css3,Bootstrap3...</p>-->
          </div><!--  /panel-body-->
-        <div class="panel-footer"><a class="M-Universal-Link" href="#"><button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; "><h6 style="font-family: Arial">View Jobs</h6></button></a></div>
+        <div class="panel-footer">
+            <a class="M-Universal-Link" href="#">
+                <button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; font-family: Arial;">View Detailed Job</button>
+            </a>
+        </div>
         </div><!-- /panel-->
         </div><!-- /well-->
         </div><!-- /col -->
@@ -205,7 +209,9 @@ include("header.php");
         <br>
         <!--<p>Html5,Css3,Bootstrap3...</p>-->
          </div><!--  /panel-body-->
-        <div class="panel-footer"><a class="M-Universal-Link" href="#"><button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; "><h6>View Jobs</h6></button></a></div>
+        <div class="panel-footer">
+            <a class="M-Universal-Link" href="#">
+                <button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; font-family: Arial;">View Detailed Job</button></a></div>
         </div><!-- /panel-->
         </div><!-- /well-->
         </div><!-- /col -->
@@ -221,7 +227,7 @@ include("header.php");
         <br>
         <!--<p>Html5,Css3,Bootstrap3...</p>-->
          </div><!--  /panel-body-->
-        <div class="panel-footer"><a class="M-Universal-Link" href="#"><button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; "><h6 style="font-family: Arial">View Jobs</h6></button></a></div>
+        <div class="panel-footer"><a class="M-Universal-Link" href="jobs.php"><button class=" btn btn-block btn-sm" style="height:3em; background-color:#063; color:white; font-family: Arial; ">View Detailed Job</button></a></div>
         </div><!-- /panel-->
         </div><!-- /well-->
         </div><!-- /col -->
@@ -283,7 +289,7 @@ include("header.php");
  -->
  <br><br>
  <div class="col-md-12 col-lg-12 col-sm-12"><h3 class="M-SeeAll text-center">
-         <a href="../views/Jobs.php" class="M-SeeAll" style="font-family: Arial">SEE ALL CATAGORIES JOBS</a></h3></div>
+         <a href="jobs.php" class="M-SeeAll" style="font-family: Arial">SEE ALL CATAGORIES JOBS</a></h3></div>
  <br><br><br><br>
 </section><!--
  <div class="M-clr"></div>

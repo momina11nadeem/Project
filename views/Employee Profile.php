@@ -63,20 +63,18 @@ It is a long established fact that a reader will be distracted by the readable c
 </div>
 
 </li><!-- 1st li of main ul  -->
-<li class="pull-right" style="width: 25%;"><!-- 2nd li of main ul -->
+<li class="pull-right" style="width: 22%;"><!-- 2nd li of main ul -->
 
-
-<!--
-<a href="Invite-To-Work.php" style="text-decoration: none;"><button class=" btn-block  M-button-GREEN-to-White M-UniversalBtn"><h6>Invite To Work</h6></button></a>
-
-<br>-->
-<a href="#" style="text-decoration: none;"><button class=" btn-block  M-button-Red M-UniversalBtn"><h6>Report Employee</h6></button></a>
+<a href="Invite-To-Work.php" style="text-decoration: none;"><button class=" btn-block  M-button-GREEN-to-White M-UniversalBtn" style="width: 100% !important; height: 2.7em !important; border-radius: 1px; ">Invite To Work</button></a>
 
 <br>
-    <button class="btn-block M-button-orange-to-white M-UniversalBtn" style="width: 100% !important; height: 2.8em !important; "><h6>Hire Now</h6></button>
+<a href="#" style="text-decoration: none;"><button class=" btn-block  M-button-Red M-UniversalBtn" style="width: 100% !important; height: 2.8em !important; border-radius: 1px; ">Report Employee</button></a>
+
+<br>
+    <button class="btn-block M-button-orange-to-white M-UniversalBtn" style="width: 100% !important; height: 2.7em !important; border-radius: 1px;"><h6>Hire Now</h6></button>
 
     <br>
-   <a href="interview-for-client.php" style="text-decoration: none;"> <button class="btn-block M-button-Grey-to-white M-UniversalBtn" style="width: 100% !important; height: 2.8em !important; "><h6>Interview Employee</h6></button>
+   <a href="interview-for-client.php" style="text-decoration: none;"> <button class="btn-block M-button-Blue M-UniversalBtn" style="width: 100% !important; height: 2.7em !important; border-radius: 1px; ">Interview Employee</button>
 </a>
       
       

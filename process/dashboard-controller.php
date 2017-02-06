@@ -1,63 +1,52 @@
 <?php
-require ("../process/Connection.php");
+require("../process/Connection.php");
 session_start();
-if(!empty($_SESSION))
-{//empty session if 
-    
-    if($_GET['userRequest'] == 'DashboardRequest')
-    
-    
-    {//user request if 
-        
-        if ($_SESSION['user_type']== 'client')
-        {//user type if or client if
-            
-           ?>
+if (!empty($_SESSION)) {//empty session if
 
-            <script>
-                
-                window.location.href='../views/client-dashboard.php';
-            </script>
-            
-<?php
-            
-            
-            
-            
-            
-        }//user type if or client if
+    if ($_GET['userRequest'] == 'DashboardRequest') {//user request if
 
-        elseif ($_SESSION['user_type'] == 'employee')
-        {//employee if
+        if ($_SESSION['user_type'] == 'client') {//user type if or client if
 
             ?>
 
-<script>
+            <script>
 
-    window.location.href='../views/Employee-Dashboard.php';
+                window.location.href = '../views/client-dashboard.php';
+            </script>
 
-</script>
-<?php
+            <?php
+
+
+        }//user type if or client if
+
+        elseif ($_SESSION['user_type'] == 'employee') {//employee if
+
+            ?>
+
+            <script>
+
+                window.location.href = '../views/Employee-Dashboard.php';
+
+            </script>
+            <?php
 
         }   //employee if
     }//user request if
-    
-    else
-    {
+
+    else {
         ?>
 
         <script>
             window.alert('you need to login first to view your dashboard.');
-            window.location.href='../views/signin.php';
+            window.location.href = '../views/signin.php';
 
 
         </script>
-<?php
+        <?php
 
     }
-    
-    
-    
+
+
 }//empty session if 
 
 ?>

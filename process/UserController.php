@@ -38,7 +38,7 @@
           ?>
 
           <script>
-            window.location.href = '../views/Jobs.php';
+            window.location.href = '../views/jobs.php';
           </script>
           <?php
         }

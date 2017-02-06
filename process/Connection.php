@@ -8,7 +8,7 @@ define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME','free_lance');
-define('PROJECT_URL','localhost/momo');
+define('PROJECT_URL','localhost/Pak-freelance/views');
 
 
 

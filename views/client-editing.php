@@ -20,7 +20,8 @@ include ("header.php");
                     </div>
                 </li>
                 <li style="padding-top:0.5em;" class="col-sm-2">
-                    <button class="btn-small M-button-Grey-to-white M-UniversalBtn btn-sm"><a style="font-family: Arial" class="M-Universal-Link">SEARCH</a></button></li>
+                    <button class="btn-small M-button-Grey-to-white M-UniversalBtn btn-sm">
+                        <a style="font-family: Arial" class="M-Universal-Link" href="#" name="">SEARCH</a></button></li>
                 <?php
 
                 if(!empty($_SESSION)) {//outer if
@@ -141,7 +142,7 @@ include ("header.php");
                         <br><br>
                         <button type="submit"
                                 class="btn btn-block M-button-orange-to-white " style="width: 10em;">
-                            <a style="font-family: Arial; font-size: large;" class="M-Universal-Link">Submit</a></button>
+                            <a style="font-family: Arial; font-size: large;" class="M-Universal-Link" href="#" name="">Submit</a></button>
 
                     </form>
                 </li>
